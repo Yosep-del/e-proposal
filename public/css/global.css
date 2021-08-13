@@ -1,0 +1,58 @@
+.form-container {
+    background: #ffffff;
+    padding: 50px;
+    border-radius: 20px;
+    box-shadow: 1px 1px 10px 0px #000;
+    top: 20vh;
+    position: relative;
+    left:-65vh;
+    
+  }
+  body{
+  font-family: 'arial';
+}
+  div{
+  font-family: 'arial';
+}
+
+.img {
+    background: url("/img/login.jpg") no-repeat;
+    width: 100%;
+    height: 100vh;
+    background-size:100%;
+   
+    
+}
+.list{
+  width: 80%;
+  font-family: cursive;
+  font-size:20px;
+  border-bottom:thin dashed red;
+}
+
+@media screen and (max-width: 678px){
+  .img{
+    background-size: 300%;
+    
+  
+  }
+}
+button {
+  
+  margin-right:30%;
+  background-color:rgb(16, 173, 16);
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+}
+.daftarproposal{
+  text-align: left;
+  margin-bottom: 5px;
+  font-size: 170%;
+  color: black;
+}
+
+
+
